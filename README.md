@@ -1,7 +1,4 @@
-# PartyNeraka
-
-
-# PartyNeraka – Top Global Neraka Jahanam 🔥
+# PartyNeraka – Top Global Neraka 🔥
 
 > *"Dibuat karena gabut, iseng-iseng ngeshare streamer-streamer penghuni neraka yang paling sadis abis."*
 
@@ -45,6 +42,8 @@ Berikut para **"Top Global Party Neraka"** yang ikut pesta api abadi ini:
 28. rania
 29. efkahfajar
 30. Jekzy
+
+
 > *jangan cari yang gk ada*
 
 > *Catatan: Setiap streamer memiliki tautan IG, TikTok, YouTube, dan donasi (biasanya ke Tako / Tiptap). Deskripsi serem-lucu masing-masing bisa dicek di profile card*
