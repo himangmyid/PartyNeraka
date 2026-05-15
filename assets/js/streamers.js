@@ -2,7 +2,7 @@
 const streamerData = [
     {
         nama: "Nugi Darmawan",
-        foto: "assets/img/nugi.jpg",
+        foto: "./assets/img/nugi.jpg",
         ig: "https://www.instagram.com/nugrahadrmwn/",
         tiktok: "https://www.tiktok.com/@nugrahadrmwn",
         youtube: "https://www.youtube.com/@NugrahaDarmawan",
@@ -11,7 +11,7 @@ const streamerData = [
     },
     {
         nama: "Fandra Octoramonth",
-        foto: "assets/img/octo.jpg",
+        foto: "./assets/img/octo.jpg",
         ig: "https://www.instagram.com/octoramonth/",
         tiktok: "https://www.tiktok.com/@fandraoctora",
         youtube: "https://www.youtube.com/@FandraOcto",
@@ -20,7 +20,7 @@ const streamerData = [
     },
     {
         nama: "Kho Petra",
-        foto: "assets/img/khopet.jpg",
+        foto: "./assets/img/khopet.jpg",
         ig: "https://www.instagram.com/fernandespetra/",
         tiktok: "https://www.tiktok.com/@fernandespetra",
         youtube: "https://www.youtube.com/khopetra",
@@ -29,7 +29,7 @@ const streamerData = [
     },
     {
         nama: "Queenuts",
-        foto: "assets/img/queenut.jpg",
+        foto: "./assets/img/queenut.jpg",
         ig: "https://www.instagram.com/queeenuts/",
         tiktok: "https://www.tiktok.com/@queeenuts",
         youtube: "https://www.youtube.com/@Queenuts",
@@ -38,7 +38,7 @@ const streamerData = [
     },
     {
         nama: "DBangkongS",
-        foto: "assets/img/DBangkongS.jpg",
+        foto: "./assets/img/DBangkongS.jpg",
         ig: "https://www.instagram.com/dickyrtama/",
         tiktok: "https://www.tiktok.com/@dbangkongsss",
         youtube: "https://www.youtube.com/@DBangkongS",
@@ -47,7 +47,7 @@ const streamerData = [
     },
     {
         nama: "The Jooomers",
-        foto: "assets/img/hans.jpg",
+        foto: "./assets/img/hans.jpg",
         ig: "https://www.instagram.com/hansrattlexnake/",
         tiktok: "https://www.tiktok.com/@hansrattlexnake",
         youtube: "https://www.youtube.com/@TheJooomers",
@@ -56,7 +56,7 @@ const streamerData = [
     },
     {
         nama: "veereesa",
-        foto: "assets/img/veereesa.jpg",
+        foto: "./assets/img/veereesa.jpg",
         ig: "https://www.instagram.com/veereesa_/",
         tiktok: "https://www.tiktok.com/@veereesa_",
         youtube: "https://www.youtube.com/@veereesa",
@@ -65,7 +65,7 @@ const streamerData = [
     },
     {
         nama: "oseanz",
-        foto: "assets/img/ose.jpg",
+        foto: "./assets/img/ose.jpg",
         ig: "https://www.instagram.com/oseanz/",
         tiktok: "https://www.tiktok.com/@oseanz",
         youtube: "https://www.youtube.com/@oseanz",
@@ -74,7 +74,7 @@ const streamerData = [
     },
     {
         nama: "idris kurniawan",
-        foto: "assets/img/idris.jpg",
+        foto: "./assets/img/idris.jpg",
         ig: "https://www.instagram.com/idriskurniawan22/",
         tiktok: "https://www.tiktok.com/@idriskurniawan22",
         youtube: "https://www.youtube.com/@idriskurniawan",
@@ -83,7 +83,7 @@ const streamerData = [
     },
     {
         nama: "King Macbeth",
-        foto: "assets/img/Macbeth.jpg",
+        foto: "./assets/img/Macbeth.jpg",
         ig: "https://www.instagram.com/iandipra/",
         tiktok: "https://www.tiktok.com/@kingmakmet",
         youtube: "https://www.youtube.com/@iandipra",
@@ -92,7 +92,7 @@ const streamerData = [
     },
     {
         nama: "Melcaro",
-        foto: "assets/img/Melcaro.jpg",
+        foto: "./assets/img/Melcaro.jpg",
         ig: "https://www.instagram.com/melcaroo0/",
         tiktok: "https://www.tiktok.com/@slemelca",
         youtube: "https://www.youtube.com/@melcarooo",
@@ -101,7 +101,7 @@ const streamerData = [
     },
     {
         nama: "Juanicho",
-        foto: "assets/img/Juanicho.jpg",
+        foto: "./assets/img/Juanicho.jpg",
         ig: "https://www.instagram.com/juanicho_",
         tiktok: "https://www.tiktok.com/@juanicho_",
         youtube: "https://www.youtube.com/@juanicho_",
@@ -110,7 +110,7 @@ const streamerData = [
     },
     {
         nama: "xdelly",
-        foto: "assets/img/xdelly.jpg",
+        foto: "./assets/img/xdelly.jpg",
         ig: "https://www.instagram.com/xdellyf",
         tiktok: "https://www.tiktok.com/@xdelly",
         youtube: "https://www.youtube.com/@xdelly",
@@ -119,7 +119,7 @@ const streamerData = [
     },
     {
         nama: "Mayuu",
-        foto: "assets/img/mayu.jpg",
+        foto: "./assets/img/mayu.jpg",
         ig: "https://www.instagram.com/mayunaisuu_",
         tiktok: "https://www.tiktok.com/@mayunaisuu",
         youtube: "https://www.youtube.com/@mayyyuuu_",
@@ -128,7 +128,7 @@ const streamerData = [
     },
     {
         nama: "NomNom",
-        foto: "assets/img/nom.jpg",
+        foto: "./assets/img/nom.jpg",
         ig: "https://www.instagram.com/silkanaomi",
         tiktok: "https://www.tiktok.com/@saosnomat",
         youtube: "https://www.youtube.com/@nomnom7789",
@@ -137,7 +137,7 @@ const streamerData = [
     },
     {
         nama: "TomoyTom",
-        foto: "assets/img/tomytom.jpg",
+        foto: "./assets/img/tomytom.jpg",
         ig: "https://www.instagram.com/tommy_xuu/",
         tiktok: "/",
         youtube: "https://www.youtube.com/@TomoyTom",
@@ -146,7 +146,7 @@ const streamerData = [
     },
     {
         nama: "Hummybby",
-        foto: "assets/img/humyby.jpg",
+        foto: "./assets/img/humyby.jpg",
         ig: "https://www.instagram.com/im.rin/",
         tiktok: "https://www.tiktok.com/@hummybby",
         youtube: "https://www.youtube.com/@hummybby",
@@ -155,7 +155,7 @@ const streamerData = [
     },
     {
         nama: "FX FM",
-        foto: "assets/img/fx.jpg",
+        foto: "./assets/img/fx.jpg",
         ig: "https://www.instagram.com/fxave_rius/",
         tiktok: "https://www.tiktok.com/@fxave_rius",
         youtube: "https://www.youtube.com/@fxaverius",
@@ -164,7 +164,7 @@ const streamerData = [
     },
     {
         nama: "Daniel Bong",
-        foto: "assets/img/dak.jpg",
+        foto: "./assets/img/dak.jpg",
         ig: "https://www.instagram.com/daniel.bong5/",
         tiktok: "https://www.tiktok.com/@danielbong4",
         youtube: "https://www.youtube.com/@danielbong6856",
@@ -173,7 +173,7 @@ const streamerData = [
     },
     // {
     //     nama: "Luthfi Al",
-    //     foto: "/assets/img/",
+    //     foto: "./assets/img/",
     //     ig: "https://www.instagram.com/luthfiiall/",
     //     tiktok: "https://www.tiktok.com/@luthfiialll",
     //     youtube: "https://www.youtube.com/@luthfiiall",
@@ -182,7 +182,7 @@ const streamerData = [
     // },
     {
         nama: "rannunn",
-        foto: "assets/img/ranun.jpg",
+        foto: "./assets/img/ranun.jpg",
         ig: "https://www.instagram.com/rannunn",
         tiktok: "https://www.tiktok.com/@rannunn",
         youtube: "https://www.youtube.com/@mommyrannunn",
@@ -191,7 +191,7 @@ const streamerData = [
     },
     {
         nama: "Kawai Tristie",
-        foto: "assets/img/kawai.jpg",
+        foto: "./assets/img/kawai.jpg",
         ig: "https://www.instagram.com/kawaitristie__",
         tiktok: "https://www.tiktok.com/@kawaitristie__",
         youtube: "https://www.youtube.com/@kawai_tristie",
@@ -200,7 +200,7 @@ const streamerData = [
     },
     {
         nama: "Nugraha Kamsaa",
-        foto: "assets/img/kamsa.jpg",
+        foto: "./assets/img/kamsa.jpg",
         ig: "https://www.instagram.com/nugrahakamsa/",
         tiktok: "https://www.tiktok.com/@kamsa001",
         youtube: "https://www.youtube.com/@Kamsaax",
@@ -209,7 +209,7 @@ const streamerData = [
     },
     {
         nama: "Lea Lee",
-        foto: "assets/img/lea.jpg",
+        foto: "./assets/img/lea.jpg",
         ig: "https://www.instagram.com/lealiioo/",
         tiktok: "https://www.tiktok.com/@lealioo",
         youtube: "https://www.youtube.com/@lealioo",
@@ -218,7 +218,7 @@ const streamerData = [
     },
     {
         nama: "margeaux",
-        foto: "assets/img/mita.jpg",
+        foto: "./assets/img/mita.jpg",
         ig: "https://www.instagram.com/mittamarvella",
         tiktok: "https://www.tiktok.com/@itsmargeaux",
         youtube: "https://www.youtube.com/@itsmargeaux",
@@ -227,7 +227,7 @@ const streamerData = [
     },
     {
         nama: "onigirilda",
-        foto: "assets/img/oni.jpg",
+        foto: "./assets/img/oni.jpg",
         ig: "https://www.instagram.com/onigirilda",
         tiktok: "https://www.tiktok.com/@onigirilda",
         youtube: "https://www.youtube.com/@onigirilda",
@@ -236,7 +236,7 @@ const streamerData = [
     },
     {
         nama: "Wellend",
-        foto: "assets/img/wellend.jpg",
+        foto: "./assets/img/wellend.jpg",
         ig: "https://www.instagram.com/wellendd",
         tiktok: "https://www.tiktok.com/@wellendd",
         youtube: "https://www.youtube.com/@Wellenddd",
@@ -245,7 +245,7 @@ const streamerData = [
     },
     {
         nama: "Daniel Ivan",
-        foto: "assets/img/ivan.jpg",
+        foto: "./assets/img/ivan.jpg",
         ig: "https://www.instagram.com/bbdan_ivan",
         tiktok: "https://www.tiktok.com/@bbdan123",
         youtube: "https://www.youtube.com/@DanielIvann",
@@ -254,7 +254,7 @@ const streamerData = [
     },
     {
         nama: "rania",
-        foto: "assets/img/rania.jpg",
+        foto: "./assets/img/rania.jpg",
         ig: "https://www.instagram.com/raniaacu/",
         tiktok: "https://www.tiktok.com/@raniaacu",
         youtube: "https://www.youtube.com/raniaacu",
@@ -263,7 +263,7 @@ const streamerData = [
     },
     {
         nama: "efkahfajar",
-        foto: "assets/img/fajar.jpg",
+        foto: "./assets/img/fajar.jpg",
         ig: "https://www.instagram.com/efkahfajar/",
         tiktok: "https://www.tiktok.com/@efkahfajar",
         youtube: "https://www.youtube.com/@efkahfajar",
@@ -272,7 +272,7 @@ const streamerData = [
     },
     {
         nama: "Jekzy",
-        foto: "assets/img/jek.jpg",
+        foto: "./assets/img/jek.jpg",
         ig: "https://www.instagram.com/se_jekzy",
         tiktok: "https://www.tiktok.com/@se_jekzy",
         youtube: "https://www.youtube.com/jekzy",
