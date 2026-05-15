@@ -1,0 +1,94 @@
+/* Pastikan font Rajdhani terbaca tajam */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Judul Streamer */
+h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Deskripsi agar lebih menonjol */
+p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Animasi Fade In saat muncul */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card-neraka {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Line clamp untuk membatasi teks deskripsi agar kartu tetap rata */
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+    background: #8b0000;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0000;
+}
+
+/* Animasi Pulse Merah */
+@keyframes pulse-red {
+    0%, 100% { box-shadow: 0 0 15px rgba(139, 0, 0, 0.6); }
+    50% { box-shadow: 0 0 30px rgba(255, 0, 0, 0.8); }
+}
+
+.card-neraka {
+    transition: all 0.4s ease-in-out;
+    border: 1px solid #333;
+}
+
+.card-neraka:hover {
+    transform: translateY(-10px) scale(1.02);
+    border-color: #8b0000;
+    box-shadow: 0 10px 30px rgba(139, 0, 0, 0.4);
+}
+
+/* Efek glitch sederhana pada teks horror */
+.font-horror {
+    text-shadow: 2px 2px #000;
+}
+
+/* Gaya untuk item saran pencarian */
+.suggestion-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #4a0000;
+    transition: all 0.3s;
+}
+
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+
+.suggestion-item:hover {
+    background: #8b0000;
+    color: white;
+    padding-left: 30px; /* Efek geser saat hover */
+}
+
+/* Highlight teks yang cocok */
+.highlight {
+    color: #ff0000;
+    font-weight: bold;
+}
+

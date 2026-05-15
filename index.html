@@ -1,0 +1,188 @@
+<!-- PartyNeraka\index.html -->
+
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTY NERAKA | Official Community</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Creepster & Rajdhani -->
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neraka-red': '#8b0000',
+                        'neraka-dark': '#0a0a0a',
+                        'neraka-blood': '#4a0000',
+                    },
+                    fontFamily: {
+                        'horror': ['Creepster', 'system-ui'],
+                        'sans': ['Rajdhani', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-neraka-dark text-gray-200 overflow-x-hidden">
+
+    <!-- Background Overlay (Efek Kabut/Asap) -->
+    <div class="fixed inset-0 z-[-1] bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')] opacity-30"></div>
+
+    <!-- Header Section -->
+    <header class="relative h-screen flex flex-col items-center justify-center text-center p-6 border-b-4 border-neraka-red shadow-[0_0_50px_rgba(139,0,0,0.5)]">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-neraka-dark z-0"></div>
+        
+        <!-- Logo PRK PNG -->
+        <img src="assets/img/prk.png" alt="Party Neraka" class="w-64 md:w-80 z-10 animate-pulse drop-shadow-[0_0_25px_rgba(255,0,0,0.8)]">
+        
+        <h1 class="text-6xl md:text-8xl font-horror text-neraka-red mt-4 z-10 tracking-wider">PARTY NERAKA</h1>
+        <p class="text-xl md:text-2xl font-bold italic text-white z-10 uppercase tracking-widest">Selamat Datang di Kedalaman</p>
+        
+        <!-- Social Media Party Neraka -->
+        <div class="flex gap-6 mt-8 z-10">
+            <a href="https://www.instagram.com/partyneraka/" class="text-3xl hover:text-red-500 transition-all transform hover:scale-125"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@partynerakacommunity" class="text-3xl hover:text-red-500 transition-all transform hover:scale-125"><i class="fab fa-tiktok"></i></a>
+            <a href="https://discord.gg/gistring" class="text-3xl hover:text-red-500 transition-all transform hover:scale-125"><i class="fab fa-discord"></i></a>
+            <a href="https://tako.id/PartyNeraka" class="text-3xl hover:text-red-500 transition-all transform hover:scale-125"><i class="fas fa-hand-holding-heart"></i></a>
+        </div>
+    </header>
+    <!-- Streamer Directory Section -->
+    <section id="streamers" class="py-20 px-6 bg-[#050505]">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-horror text-center text-neraka-red mb-4">PENGHUNI NERAKA</h2>
+            <p class="text-center text-gray-500 mb-12 italic uppercase tracking-widest">Para pendosa yang menghibur anda</p>
+            <!-- SEARCH BAR SECTION -->
+<div class="max-w-md mx-auto mb-12 px-4 relative">
+    <div class="relative group">
+        <!-- Input Search -->
+        <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Cari nama penghuni..." 
+            class="w-full bg-black/50 border-2 border-neraka-blood text-white px-5 py-3 rounded-full focus:outline-none focus:border-neraka-red focus:ring-1 focus:ring-neraka-red transition-all shadow-[0_0_15px_rgba(139,0,0,0.2)]"
+            autocomplete="off"
+        >
+        <i class="fas fa-search absolute right-5 top-4 text-neraka-red"></i>
+    </div>
+
+    <!-- Container untuk Saran (Suggestions) -->
+    <div id="suggestions-box" class="absolute w-full left-0 mt-2 bg-neraka-dark border border-neraka-red rounded-lg hidden z-50 shadow-2xl overflow-hidden">
+        <!-- Item saran akan muncul di sini via JS -->
+    </div>
+</div>
+<!-- END SEARCH BAR SECTION -->
+            
+        <!-- Grid container -->
+            <div id="streamer-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <!-- Data via JS -->
+            </div>
+
+<!-- Tombol Read More / Load More -->
+<div id="load-more-container" class="flex justify-center mt-12">
+    <button id="load-more-btn" class="group relative px-8 py-3 font-bold text-white transition-all duration-300">
+        <!-- Efek Background Tombol yang Sangar -->
+        <span class="absolute inset-0 w-full h-full transition-all duration-300 transform group-hover:translate-x-1 group-hover:translate-y-1 bg-neraka-red"></span>
+        <span class="absolute inset-0 w-full h-full transition-all duration-300 bg-neraka-dark border-2 border-neraka-red"></span>
+        <span class="relative uppercase tracking-widest text-sm">Lihat Penghuni Lainnya...</span>
+    </button>
+</div>
+        </div>
+    </section>
+
+    <!-- Marketplace Section -->
+    <section class="py-20 px-6 max-w-7xl mx-auto">
+        <h2 class="text-4xl font-horror text-center text-neraka-red mb-12 uppercase tracking-widest underline decoration-double">Neraka Store</h2>
+        <div class="bg-gradient-to-r from-neraka-blood to-neraka-dark p-8 rounded-lg border-2 border-neraka-red flex flex-col md:flex-row items-center justify-between gap-8 shadow-[0_0_30px_rgba(139,0,0,0.3)]">
+            <div class="text-center md:text-left">
+                <h3 class="text-3xl font-bold mb-2">OFFICIAL MERCHANDISE</h3>
+                <p class="text-gray-400 max-w-md">Dapatkan equipment dan apparel resmi Party Neraka. Jangan biarkan jiwamu telanjang di dalam kegelapan.</p>
+            </div>
+            <a href="https://shopee.co.id/partyneraka" target="_blank" class="bg-neraka-red hover:bg-red-700 text-white font-bold py-4 px-10 rounded-full transition-all transform hover:scale-110 flex items-center gap-3">
+                <i class="fas fa-shopping-cart"></i> KUNJUNGI SHOPEE
+            </a>
+        </div>
+    </section>
+
+    
+
+    <!-- Gallery Section -->
+    <section class="py-20 px-6 max-w-7xl mx-auto">
+        <h2 class="text-4xl font-horror text-center text-neraka-red mb-12">GALLERY KEGELAPAN</h2>
+        <div class="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
+            <!-- Contoh Gambar Gallery (Bisa diisi link asli nanti) -->
+            <div class="break-inside-avoid"><img src="/assets/img/1.png" class="w-full border-2 border-neraka-red rounded grayscale hover:grayscale-0 transition-all duration-500 shadow-lg" alt="Gallery"></div>
+            <div class="break-inside-avoid"><img src="/assets/img/2.png" class="w-full border-2 border-neraka-red rounded grayscale hover:grayscale-0 transition-all duration-500 shadow-lg" alt="Gallery"></div>
+            <div class="break-inside-avoid"><img src="/assets/img/ara.jpg" class="w-full border-2 border-neraka-red rounded grayscale hover:grayscale-0 transition-all duration-500 shadow-lg" alt="Gallery"></div>
+            <div class="break-inside-avoid"><img src="/assets/img/3.png" class="w-full border-2 border-neraka-red rounded grayscale hover:grayscale-0 transition-all duration-500 shadow-lg" alt="Gallery"></div>
+            <div class="break-inside-avoid"><img src="/assets/img/4.png" class="w-full border-2 border-neraka-red rounded grayscale hover:grayscale-0 transition-all duration-500 shadow-lg" alt="Gallery"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+  <footer class="py-16 px-6 bg-neraka-blood/20 border-t-2 border-neraka-red">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+
+    <!-- CONTACT -->
+    <div>
+      <h2 class="text-3xl font-horror text-neraka-red mb-6">
+        HUBUNGI ADMIN
+      </h2>
+
+      <div class="space-y-4 text-lg text-gray-200">
+
+        <!-- EMAIL -->
+        <a 
+          href="mailto:Cp.partyneraka@gmail.com"
+          class="flex items-center gap-4 hover:text-neraka-red transition"
+        >
+          <i class="fas fa-envelope text-neraka-red"></i>
+          Cp.partyneraka@gmail.com
+        </a>
+
+        <!-- WHATSAPP -->
+        <a 
+          href="https://wa.me/6285283763880"
+          target="_blank"
+          class="flex items-center gap-4 hover:text-neraka-red transition"
+        >
+          <i class="fab fa-whatsapp text-neraka-red"></i>
+          +62 852-8376-3880
+        </a>
+
+      </div>
+    </div>
+
+    <!-- LOGO -->
+    <div class="text-right flex flex-col items-end">
+      <img
+        src="assets/img/prk.png"
+        class="w-24 mb-4 animate-pulse drop-shadow-[0_0_25px_rgba(255,0,0,0.8)]"
+        alt="Party Neraka Logo"
+      >
+
+      <p class="text-sm text-gray-300 tracking-wide">
+        &copy; <span id="year"></span> PARTY NERAKA COMMUNITY.<br>
+        BUILT IN HELL.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+    <script src="assets/js/streamers.js"></script>
+    <script>
+  document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
+</body>
+</html>
