@@ -1,4 +1,4 @@
-# PartyNeraka – Top Global Neraka 🔥
+# Party Neraka – Top Global Neraka 🔥
 
 > *"Dibuat karena gabut, iseng-iseng ngeshare streamer-streamer penghuni neraka yang paling sadis abis."*
 
