@@ -187,7 +187,7 @@ const streamerData = [
         tiktok: "https://www.tiktok.com/@rannunn",
         youtube: "https://www.youtube.com/@mommyrannunn",
         donasi: "https://tako.id/rannunn",
-        deskripsi: "Mommy hantu yang galaknya minta ampun, sekali maruh langsung matiin listrik seluruh neraka."
+        deskripsi: "Mommy hantu yang galaknya minta ampun, sekali marah langsung matiin listrik seluruh neraka."
     },
     {
         nama: "Kawai Tristie",
